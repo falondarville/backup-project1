@@ -1,5 +1,5 @@
 .masthead{
-	background: url(images/neon.jpg) no-repeat bottom center scroll;
+	background: url(assets/images/neon.jpg) no-repeat bottom center scroll;
 	background-size: 100% 100%;
 	border-right: 50px solid #ffc107;
 	border-left: 50px solid #ffc107;
@@ -57,7 +57,7 @@
 }
 
 #download{
-	background: url(images/phone-wood-logo.jpg);
+	background: url(assets/images/Phone-wood-logo.jpg);
 	background-size: 100% 100%;
 	border-bottom: 10px solid #ffc107;
 	/*border-top: 10px solid #ffc107;*/
@@ -113,7 +113,7 @@
 
 @font-face {
 	font-family: neon1;
-	src: url(fonts/beon-webfont.ttf);
+	src: url(assets/fonts/beon-webfont.ttf);
 
 }
 
