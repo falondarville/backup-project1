@@ -167,6 +167,19 @@ function displaySelectedTopic(selectedTopic) {
 	
 };
 
+
+$("#logInButton").on("click", function() {
+
+	var email = $("#modalLRInput10").val();
+	filter = /\S+@\S+\.\S+/;
+	if (filter.test(email)) {
+  		window.location.href = "topics.html";
+	}
+	else{
+		return false;
+	}
+});
+
 // dynamically populate the cards on the topics page
 $("#dropdown #changeDropdown").on("click", function(){
 
